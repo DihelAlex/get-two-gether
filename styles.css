@@ -1,0 +1,178 @@
+h1 {
+  font-family: "Montserrat-Black",sans-serif;
+  line-height: 1.5;
+  font-size: 4rem;
+  font-weight: 700;
+}
+h3 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 300;
+  color: #ff4c68;
+}
+p {
+  color: grey;
+  font-size: 20px;
+}
+.navbar {
+  padding: 5% 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-right: 16px;
+}
+
+.container-fluid {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+
+}
+.btn {
+  margin-top: 10%;
+
+  margin-right: 2%;
+  padding: 2% 5%;
+}
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 7%;
+  color: white;
+
+}
+.iphoneimg {
+width: 50%;
+margin-top: 10%;
+transform: rotate(25deg);
+margin-left: 20%;
+position: absolute;
+}
+
+/*--------How it works************/
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  text-align:center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+#features h3:hover {
+  color: #ef8172;
+}
+.howimg {
+  width: 40%;
+  padding-bottom: 10%;
+  padding-top: 15%;
+}
+/**************testimonials*******/
+
+#testimonials h3 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.5;
+}
+#testimonials h2 {
+  margin-top: 4%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.test1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 1%;
+}
+/***********pricing***********/
+#Pricing {
+  padding: 7% ;
+  text-align: center;
+}
+#Pricing h2 {
+  color: #ff4c68
+}
+.collumnprice {
+  padding: 2% 3%;
+
+
+}
+.card-deck {
+  padding: 5% 15%;
+}
+.card {
+  box-shadow: 0 7px 10px 8px #888888;
+}
+
+/*our vision*/
+.Ourvision {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+
+
+}
+.Ourvision h3 {
+  color: #fff;
+  line-height: 1.5;
+  margin-top: 2%;
+}
+/*Footer*/
+
+#footer {
+  background-color: #fff;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.sponsors {
+ width: 55%;
+ margin-bottom: 20%;
+}
+.socialicon {
+  margin: auto 2% 3%;
+  font-size: 40px;
+
+}
+
+
+
+
+/*tablet*/
+@media (max-width: 1200px) {
+  .iphoneimg {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  position: static;
+  transform: none;
+  }
+}
+/*mobile*/
+@media (max-width: 1000px) {
+  .iphoneimg {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  position: static;
+  transform: none;
+  }
+  #title {
+    text-align: center;
+  }
+}
